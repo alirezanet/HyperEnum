@@ -1,9 +1,9 @@
-using EnumTools;
+using HyperEnum;
 
 // ReSharper disable once CheckNamespace
 namespace TestNamespace.SubTestNamespace
 {
-    [EnumTools]
+    [HyperEnum]
     public enum HumanStates
     {
         Idle,
@@ -15,7 +15,7 @@ namespace TestNamespace.SubTestNamespace
 
     public struct TestStruct
     {
-        [EnumTools]
+        [HyperEnum]
         public enum Test2
         {
             Item1,
@@ -29,7 +29,7 @@ namespace TestNamespace.SubTestNamespace
     {
         public class TestClass2
         {
-            [EnumTools]
+            [HyperEnum]
             public enum Test3
             {
                 Item1 = 0,

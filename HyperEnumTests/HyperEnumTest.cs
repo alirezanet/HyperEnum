@@ -1,10 +1,10 @@
 using Xunit;
-using EnumTools;
+using HyperEnum;
 using TestNamespace.SubTestNamespace;
 
-namespace EnumToolsTests
+namespace HyperEnumTests
 {
-    public class UnitTest1
+    public class HyperEnumTest 
     {
         [Fact]
         public void FastGetName()
