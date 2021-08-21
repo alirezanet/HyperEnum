@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HyperEnum", "HyperEnum\HyperEnum.csproj", "{AC1A5C5A-0C3C-4A58-96AC-310C192E7234}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B47408C7-8BA6-4A8B-BAF8-CA8DDAD1F502}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{DAAC1C6E-FD55-4CD6-B22B-4E3A59DFDF16}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HyperEnumTests", "HyperEnumTests\HyperEnumTests.csproj", "{D86F5551-8545-4A6B-8235-4CCB081261DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Benchmarks", "Benchmarks\Benchmarks.csproj", "{7FC88625-D467-42AE-AFFF-41C8DDCA5605}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HyperEnumGenerator", "HyperEnumGenerator\HyperEnumGenerator.csproj", "{069CAC16-DF54-430D-A17E-C92EC06A2809}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "benchmark", "benchmark", "{1AC7E2BA-16C2-45AB-BA9B-51E016E9EC6A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC1A5C5A-0C3C-4A58-96AC-310C192E7234}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC1A5C5A-0C3C-4A58-96AC-310C192E7234}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC1A5C5A-0C3C-4A58-96AC-310C192E7234}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC1A5C5A-0C3C-4A58-96AC-310C192E7234}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D86F5551-8545-4A6B-8235-4CCB081261DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D86F5551-8545-4A6B-8235-4CCB081261DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D86F5551-8545-4A6B-8235-4CCB081261DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D86F5551-8545-4A6B-8235-4CCB081261DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FC88625-D467-42AE-AFFF-41C8DDCA5605}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FC88625-D467-42AE-AFFF-41C8DDCA5605}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FC88625-D467-42AE-AFFF-41C8DDCA5605}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FC88625-D467-42AE-AFFF-41C8DDCA5605}.Release|Any CPU.Build.0 = Release|Any CPU
+		{069CAC16-DF54-430D-A17E-C92EC06A2809}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{069CAC16-DF54-430D-A17E-C92EC06A2809}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{069CAC16-DF54-430D-A17E-C92EC06A2809}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{069CAC16-DF54-430D-A17E-C92EC06A2809}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AC1A5C5A-0C3C-4A58-96AC-310C192E7234} = {B47408C7-8BA6-4A8B-BAF8-CA8DDAD1F502}
+		{D86F5551-8545-4A6B-8235-4CCB081261DB} = {DAAC1C6E-FD55-4CD6-B22B-4E3A59DFDF16}
+		{069CAC16-DF54-430D-A17E-C92EC06A2809} = {B47408C7-8BA6-4A8B-BAF8-CA8DDAD1F502}
+		{7FC88625-D467-42AE-AFFF-41C8DDCA5605} = {1AC7E2BA-16C2-45AB-BA9B-51E016E9EC6A}
+	EndGlobalSection
+EndGlobal
