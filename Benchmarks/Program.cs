@@ -16,16 +16,10 @@ namespace Benchmarks
         public class EnumGetNameBenchmark
         {
             [Benchmark]
-            public void NormalToString()
-            {
-                var _ = HumanStates.Idle.GetName();
-            }
+            public void NormalToString() => HumanStates.Idle.ToString();
 
             [Benchmark]
-            public void HyperEnumAsString()
-            {
-                var _ = HumanStates.Idle.GetName();
-            }
+            public void HyperEnumGetName() => HumanStates.Idle.GetName();
         }
     }
 }
