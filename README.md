@@ -10,10 +10,10 @@ A C# library that make working with Enums more than 18 times faster without any 
 
 ```c#
 [Benchmark]
-public void NormalToString() => HumanStates.Idle.ToString();
+public void NormalToString() => HumanStates.Idle.ToString(); // output = "Idle"
 
 [Benchmark]
-public void HyperEnumGetName() => HumanStates.Idle.GetName();
+public void HyperEnumGetName() => HumanStates.Idle.GetName(); // output = "Idle"
 ```
 
 
