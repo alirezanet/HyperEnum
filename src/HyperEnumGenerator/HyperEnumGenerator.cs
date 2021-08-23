@@ -72,7 +72,8 @@ namespace HyperEnumGenerator
         private static IEnumerable<EnumDeclarationSyntax> GetEnumItems(SyntaxTree syntaxTree)
         {
             return syntaxTree.GetRoot().DescendantNodes().OfType<EnumDeclarationSyntax>()
-                .Where(x => x.AttributeLists.Any(q => Regex.IsMatch(q.ToString(), @"\[\s*?HyperEnum\s*?\]")));
+                .Where(x => x.AttributeLists.Any(q => Regex.IsMatch(q.ToString(), @"\[\s*?(?:HyperEnum|HyperEnumAttribute)\s*?\]")));
+            
         }
 
         private static (string Name, IEnumerable<string> Members) ParseEnum(
