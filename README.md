@@ -5,8 +5,9 @@ A C# library that make working with Enums more than 18 times faster without any 
 
 |           Method |      Mean |     Error |    StdDev |  Gen 0 | Allocated |
 |----------------- |----------:|----------:|----------:|-------:|----------:|
-|   NormalToString | 19.413 ns | 0.3114 ns | 0.2913 ns | 0.0038 |      24 B |
-| HyperEnumGetName |  1.897 ns | 0.0258 ns | 0.0215 ns |      - |         - |
+|   NormalToString | 20.248 ns | 0.1086 ns | 0.1016 ns | 0.0038 |      24 B |
+|      EnumGetName | 41.523 ns | 0.1619 ns | 0.1352 ns | 0.0038 |      24 B |
+| HyperEnumGetName |  2.122 ns | 0.0189 ns | 0.0177 ns |      - |         - |
 
 ```c#
 [Benchmark]
