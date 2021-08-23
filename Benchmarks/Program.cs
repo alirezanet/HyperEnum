@@ -1,4 +1,5 @@
-﻿using BenchmarkDotNet.Running;
+﻿using System.Linq;
+using BenchmarkDotNet.Running;
 
 namespace Benchmarks
 {
@@ -6,7 +7,9 @@ namespace Benchmarks
     {
         static void Main(string[] args)
         {
-            BenchmarkRunner.Run<EnumGetNameBenchmark>();
+            BenchmarkRunner.Run<HyperEnumGetNameBenchmark>();
+            // BenchmarkRunner.Run<HyperEnumGetNamesBenchmark>();
         }
+     
     }
 }

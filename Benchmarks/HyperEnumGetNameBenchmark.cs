@@ -5,7 +5,7 @@ using HyperEnum;
 namespace Benchmarks
 {
     [MemoryDiagnoser()]
-    public class EnumGetNameBenchmark
+    public class HyperEnumGetNameBenchmark
     {
         [Benchmark]
         public void NormalToString() => HumanStates.Idle.ToString();
